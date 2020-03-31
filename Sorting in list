@@ -1,0 +1,12 @@
+num=['15','40','20','45','10','30','25','35','50']
+num.sort()
+print(num)
+print(len(num))
+num.reverse()  #reversing the main num
+print(num)    
+num.reverse() #reversing the duplicate num to main num.
+print(num)
+print("known num:")
+print(num)
+print(num[4])
+print(num[-4])
