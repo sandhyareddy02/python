@@ -1,0 +1,7 @@
+str_1="sandhya"
+str_2="reddy"
+string=str_1+" "+str_2
+print(string)
+print("Hi, "+ string.title()+"!!!")
+print("Name:\nsandhya " "reddy")
+print("Name:\n\tsandhya " "reddy")
