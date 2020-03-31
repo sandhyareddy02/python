@@ -1,0 +1,9 @@
+str="sandhya reddy"
+print(len(str))
+print(str.title())
+print(str.upper())
+print(str.lower())
+print(str[1])
+print(str[3:6])
+print(str[-5:-2])
+print(str.replace("h","i"))
