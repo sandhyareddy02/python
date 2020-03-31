@@ -1,0 +1,6 @@
+pizzas=['pepperoni','chicken sausage','cheese corn']
+for pizza in pizzas:
+	#print(pizza)
+	#print(pizza.title())
+	print("I like",pizza.title() +  "!")
+print("I Really loves pizza !!!") 
