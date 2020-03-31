@@ -1,0 +1,8 @@
+Name="sri teja"
+Print(Name.title())
+Subject_1="maths=45"
+Subject_2="english=48"
+Print(Subject_1.title())
+Print(Subject_2.title())
+Comment="sri teja "+"mark in"+" english=48"
+Print(Comment)
