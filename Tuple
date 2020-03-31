@@ -1,0 +1,9 @@
+foods=('vada','pongal','dosa','puri','chapathi')
+print(foods)
+print(foods[1])
+print(foods[2:5])
+for food in foods:
+	print(food)
+for food in foods:
+	food=reversed(food)
+	print(tuple(food))
