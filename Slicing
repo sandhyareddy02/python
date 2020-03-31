@@ -1,0 +1,9 @@
+my_pizzas=['sauages','cheese corn','peppy paneer','onion']
+friend_pizzas=['chicken sauages','pepperion','mushroom']
+print(my_pizzas[-1])
+print(my_pizzas[2:4])
+print(friend_pizzas[2:])
+print("my favorite pizzas are:")
+print(my_pizzas)
+print("my friends favorite pizzas are:\nchicken sauages\npepperion\nmushroom")
+print(friend_pizzas)
