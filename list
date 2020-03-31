@@ -1,0 +1,19 @@
+list=['s','a','n','d','h','y','a']
+print(len(list))
+print(list)
+print(list[0])
+print(list[3])
+print(list[0].title())
+send="first letter of the list is  "+list[0].title()+"....!"
+print(send)
+list[4]='i'
+list.append('h')
+print(list)
+list.insert(1,'a')
+print(list)
+del list[1]
+print(list)
+pop_list=list.pop()
+print(list)
+list.remove('i')
+print(list)
