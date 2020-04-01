@@ -1,0 +1,11 @@
+number = 14343
+if 10 < number < 100:
+    print("number belongs to two digit number")
+elif 100 < number < 1000:
+    print("number belongs to three digit number")
+elif 1000 < number < 10000:
+    print("number belongs to four digit number")
+elif 10000 < number < 100000:
+	print("number belongs to five digit number")
+else:
+    print("None of the above !!!")
