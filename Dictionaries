@@ -1,0 +1,16 @@
+student_details1={'name':'sandhya','age':19,'dept':'cse','place':'nellore'}
+student_details2={'name':'kushi','age':20,'dept':'cse','place':'prakasham'}
+print("She's name is:"  , student_details1['name'].title())
+print("Her age is:" ,student_details1['age'])
+print("She belongs to:" ,student_details1['dept'].title() + " dept")
+print("Her native place is:" ,student_details1['place'].title() + " dist")
+del student_details2['age']
+print(student_details2)
+for details in student_details1.keys():
+	print(details.title())
+for details in sorted(student_details1.keys()):
+	print(details.title() + ", Thank you for updating your details !")
+for details in student_details2.values():
+	print(details.title())
+print("The details of both the student has been enrolled !")
+print("\tThank you !!!")
