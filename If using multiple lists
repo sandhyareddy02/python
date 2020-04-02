@@ -1,0 +1,8 @@
+current_users=['sandhya','kushi','meenakshi','jothi','kavitha']
+new_users=['ravi','sandhya','kushi','teja','pavan']
+for new_user in new_users:
+	if new_user in current_users:
+		print("The user name "+  new_user.title()  + "  has already been used"+".")
+	else:
+		print("The user name "+ new_user.title()  + "  has not been used, the user name is available"+".")
+print("\nFinished making your user account !\nyou can proceed into your account.")
