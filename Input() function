@@ -1,0 +1,14 @@
+seating=input("How many people are in there dinner group?")
+seating=int(seating)
+if seating>=8:
+	print("\nyou have to wait for the table !")
+else:
+	print("\nyour table is ready !")
+value=input("Enter a number:")
+value=int(value)
+if value>434:
+	print("The entered value is greater !")
+elif value ==434:
+	print("The entered value is equal !")
+else:
+	print("The entered value is lesser !")
