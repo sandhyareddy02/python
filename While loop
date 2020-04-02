@@ -1,0 +1,10 @@
+sandwich_orders=['veg sandwich','egg sandwich','cream cheese sandwich','club sandwich','grill sandwich']
+finished_sandwiches=[]
+while sandwich_orders:
+	my_orders=sandwich_orders.pop()
+	print("packing orders:" + my_orders.title())
+	finished_sandwiches.append(my_orders)
+print("\nThe following finished sandwich orders are:")
+for finished_sandwich in finished_sandwiches:
+	print(finished_sandwich.title())
+print("\nThank you for your valuable orders !!!")
