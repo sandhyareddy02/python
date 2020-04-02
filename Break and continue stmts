@@ -1,0 +1,9 @@
+for name in ['sandhya','ravi','kushi','pavan','meenu']:
+   print(name.title())
+   if(name=='sandhya'):
+	   print("The name sandhya is found !")
+	   break
+for num in range(1,100):
+	if num%10==0:
+		continue
+	print(num)
