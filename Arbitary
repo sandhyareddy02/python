@@ -1,0 +1,5 @@
+name=['sandhya','kushi','pavan','ravi']
+def my_args(*args):
+	for i in range(len(args)):
+		print(args[i])
+print(my_args(*name))
