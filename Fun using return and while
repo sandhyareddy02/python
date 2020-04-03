@@ -1,0 +1,22 @@
+def make_album(artist_name,album_title):
+	album={'artist':artist_name,'album':album_title}
+	return album
+crazy=make_album('arman malik','sarbjit')
+print(crazy)
+crazy=make_album('revanth','coffe with my wife')
+print(crazy)
+crazy=make_album('shreya ghoshal','diwala')
+print(crazy)
+def artist_name(first_name,last_name):
+	full_name=first_name+' '+last_name
+	return full_name.title()
+while True:
+	print("\nThe artist name is:")
+	f_name=input("First name:")
+	if f_name=='q':
+		break
+	l_name=input("Last name:")
+	if l_name=='q':
+		break
+	name=artist_name(f_name,l_name)
+	print(name)
