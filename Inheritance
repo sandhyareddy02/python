@@ -1,0 +1,16 @@
+class Icecreamstand():
+	def __init__(self,flavour,price):
+		self.flavour=flavour
+		self.price=price
+	def get_icecream(self):
+		ice_cream=("The " + self.flavour.title() + " ice cream is " + str(self.price) + " rs.")
+		return ice_cream
+class cake(Icecreamstand):
+	def __init__(self,flavour,price):
+		super().__init__(flavour,price)
+my_cake=cake('cool cake',800)
+print(my_cake.get_icecream())
+my_icecream=Icecreamstand('chocolate',20)
+print(my_icecream.get_icecream())
+yours_icecream=Icecreamstand('butterscotch',20)
+print(yours_icecream.get_icecream())
