@@ -1,0 +1,7 @@
+X= "sandhya"
+try:
+	print(s)
+except NameError:
+	print(" s is not defined")
+else:
+	print("X is sandhya")
