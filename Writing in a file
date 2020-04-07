@@ -1,0 +1,5 @@
+f=open("intro2.txt","a")
+f.write("Now the file is extended !")
+f.close()
+f=open("intro2.txt","r")#here we are reading the file which we have already wrote:
+print(f.read())
