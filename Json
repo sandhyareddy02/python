@@ -1,0 +1,11 @@
+import json
+x = {
+  "name": "sandhya",
+  "age": 19,
+  "dept": "cse"
+}
+y = json.dumps(x)
+print(y)
+s=  '{ "name":"kushi", "age":20, "city":"chennai"}'
+y = json.loads(s)
+print(y["age"])
