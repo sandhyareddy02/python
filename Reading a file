@@ -1,0 +1,6 @@
+f=open("intro.txt","r")
+print(f.read())
+print(f.read(5))
+print(f.readlines())
+for x in f:
+	print(x)
